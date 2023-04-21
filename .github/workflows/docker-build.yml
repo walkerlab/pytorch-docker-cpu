@@ -10,8 +10,8 @@ jobs:
         include:
         - BASE_IMG_NAME: python:3.11.3-slim-buster
           TORCH_VER: 2.0.0
-          TORCHVISION_VER: 2.0.1
-          TORCHAUDIO_VER: 0.15.1
+          TORCHVISION_VER: 0.15.1
+          TORCHAUDIO_VER: 2.0.1
     runs-on: ubuntu-latest
     permissions:
       packages: write
