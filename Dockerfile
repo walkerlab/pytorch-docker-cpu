@@ -9,6 +9,7 @@ RUN apt-get update && \
     vim \
     curl \
     zip \
+    gcc \
     && \
     apt-get clean
 
