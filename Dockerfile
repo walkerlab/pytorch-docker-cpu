@@ -4,12 +4,13 @@ FROM ${BASE_IMG_NAME}
 
 RUN apt-get update && \
     apt-get install -y \
+    build-essential \
+    software-properties-common \
     git \
     wget \
     vim \
     curl \
     zip \
-    gcc \
     && \
     apt-get clean
 
